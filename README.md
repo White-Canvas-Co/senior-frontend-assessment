@@ -32,8 +32,7 @@ Once complete, please provide the following via email:
 - Tech stack - we recommend using the following tech stack:
   - TailwindCSS
   - SCSS (only if necessary)
-  - React (or similar)
-  - TypeScript (optional)
+  - Any JS framework but we use Alpine and Vue in our projects
 - Fonts - "Lato" (Google/Shopify font)
 - Icons/images - the icons snippet and image files are in `/resources`
 - Free [Rapid API](https://rapidapi.com/) account required
@@ -85,3 +84,8 @@ Once complete, please provide the following via email:
 - (Optional) "Open in Maps" links to Google Maps.
 - (Optional) Temperature background colours based on the ranges specified here - https://www.weatherzone.com.au/help/legend#legend_temperature.
 - (Optional) Handle error cases gracefully.
+
+
+> **Note**
+> 
+> In some cases, the API may not return all the expected data. If this occurs, please demonstrate in your code how you handle this situation. Additionally, your code should reflect that it assumes the presence of this data. You may still refer to the sample response in the API documentation to understand how to handle the missing data.
